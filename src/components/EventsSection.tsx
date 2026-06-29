@@ -16,9 +16,9 @@ export default function EventsSection() {
     <section id="su-kien" className="bg-dst-ink py-20 md:py-28">
       <div className="section-shell">
         <SectionHeading
-          label="Sự kiện"
-          title="Ấn phẩm và hình ảnh sự kiện được thiết kế để kéo người xem vào nhịp đêm."
-          description="Tài liệu có poster chương trình và hình ảnh sân khấu thực tế. Website chỉ hiển thị các chương trình đã xuất hiện trong tư liệu, không tự dựng lịch mới."
+          label="Đêm nhạc"
+          title="Từ poster đến sân khấu, mỗi chi tiết đều được tạo nên để dẫn dắt cảm xúc trước khi đêm nhạc bắt đầu."
+          description="Âm nhạc, ánh sáng và hình ảnh cùng hòa vào không gian biển, tạo nên những đêm diễn giàu năng lượng và những khoảnh khắc khó quên."
         />
         <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="grid grid-cols-3 gap-3">

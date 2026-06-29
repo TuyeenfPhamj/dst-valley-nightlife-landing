@@ -13,8 +13,8 @@ export default function GallerySection() {
       <div className="section-shell">
         <SectionHeading
           label="Không gian"
-          title="Gallery thật từ sân khấu, ánh sáng, khách tham gia và ấn phẩm sự kiện."
-          description="Mosaic dùng các ảnh đã xuất hiện trong hồ sơ Valley Beach Club để giữ đúng chất liệu thương hiệu."
+          title="Không gian thương hiệu được kể bằng những khoảnh khắc thật."
+          description="DST chọn lọc, xử lý và sắp đặt hình ảnh từ sân khấu, khách tham gia và ấn phẩm để tạo nên một gallery nhất quán, giàu cảm xúc cho Valley Beach Club."
         />
         <div className="grid auto-rows-[240px] gap-4 md:grid-cols-4">
           {galleryItems.map((item) => (

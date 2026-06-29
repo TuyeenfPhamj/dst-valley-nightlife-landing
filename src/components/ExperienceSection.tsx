@@ -11,8 +11,8 @@ export default function ExperienceSection() {
       <div className="section-shell">
         <SectionHeading
           label="Trải nghiệm"
-          title="Không chỉ là một đêm nhạc, mà là cách venue kể câu chuyện của mình."
-          description="Các điểm chạm hình ảnh được xây từ những gì tài liệu ghi nhận: beach bar Bohemian, sân khấu ánh sáng, nội dung truyền thông và khoảnh khắc khách hàng."
+          title="Không gian được lấy cảm hứng từ tinh thần beach bar Bohemian — nơi âm nhạc, ánh sáng, sân khấu và không khí biển hòa vào nhau để tạo nên một đêm có cá tính riêng"
+          description="Những hình ảnh dưới đây là nguồn cảm hứng cho không gian: beach bar, ánh sáng sân khấu, âm nhạc và những khoảnh khắc tự do bên bờ biển."
           className="mb-12 lg:items-start"
           titleClassName="md:text-[2.625rem] lg:max-w-[36rem]"
           contentClassName="lg:pt-8"

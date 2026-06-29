@@ -73,16 +73,16 @@ export const timelineItems: TimelineItem[] = [
 
 export const eventItems: EventItem[] = [
   {
-    title: "Chương trình âm nhạc",
+    title: "Đêm nhạc đầy năng lượng",
     description:
-      "Tài liệu ghi nhận Valley Beach Club thường tổ chức các sự kiện âm nhạc lớn, hướng tới khách trong khu vực và du khách tới Quảng Ninh.",
+      "Từ những giai điệu sôi động đến không khí bùng nổ bên bờ biển, mỗi chương trình là một điểm hẹn để gặp gỡ, tận hưởng và sống trọn cùng nhịp nhạc.",
     src: stage,
     alt: "Sân khấu âm nhạc tại Valley Beach Club",
   },
   {
-    title: "Poster line-up",
+    title: "Nghệ sĩ & line-up nổi bật",
     description:
-      "Các ấn phẩm như Minami, DJ Shenlongz và Phi Long cho thấy hướng truyền thông sự kiện tập trung vào hình ảnh nghệ sĩ và lịch diễn.",
+      "Mỗi line-up mang đến một màu sắc riêng, kết nối những cá tính âm nhạc nổi bật với nguồn năng lượng sẵn sàng khuấy động cả không gian.",
     src: crowd,
     alt: "Khách tại một sự kiện âm nhạc của Valley Beach Club",
   },

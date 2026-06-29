@@ -6,22 +6,22 @@ const reasons = [
   {
     icon: Camera,
     title: "Hình ảnh thật làm trung tâm",
-    text: "Hồ sơ thể hiện cách DST triển khai hình ảnh, video và visual cho các thương hiệu nhà hàng, khách sạn, sự kiện.",
+    text: "DST khai thác hình ảnh, video và visual thực tế để biến từng khoảnh khắc của sự kiện thành chất liệu truyền thông có sức lan tỏa.",
   },
   {
     icon: Palette,
     title: "Thiết kế theo concept",
-    text: "Các poster và ấn phẩm Valley bám sát tinh thần beach club, mùa hè và âm nhạc về đêm.",
+    text: "DST phát triển poster và ấn phẩm theo concept beach club, giữ nhất quán tinh thần mùa hè, âm nhạc và trải nghiệm về đêm.",
   },
   {
     icon: Megaphone,
     title: "Quản trị kênh truyền thông",
-    text: "DST đồng hành với Valley bằng quản trị Fanpage, viết content, thiết kế hình ảnh và chạy ADS.",
+    text: "DST đồng hành cùng Valley trong quản trị Fanpage, xây dựng nội dung, thiết kế hình ảnh và triển khai quảng cáo để duy trì nhịp truyền thông cho từng chương trình.",
   },
   {
     icon: RadioTower,
-    title: "Phủ sóng tại Quảng Ninh",
-    text: "Tài liệu nhấn mạnh mục tiêu tiếp cận khách địa phương và du khách đến với Quảng Ninh.",
+    title: "Tăng độ phủ tại Quảng Ninh",
+    text: "DST định hướng nội dung và kênh truyền thông để tiếp cận khách địa phương lẫn du khách đang tìm kiếm trải nghiệm giải trí tại Hạ Long.",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function WhyChooseUsSection() {
       <div className="section-shell">
         <SectionHeading
           label="Điểm mạnh"
-          title="Một hệ sinh thái truyền thông vừa có ảnh, vừa có nhịp, vừa có kênh triển khai."
+          title="DST xây dựng hệ sinh thái truyền thông từ hình ảnh, nội dung đến các kênh triển khai."
         />
         <div className="grid gap-5 lg:grid-cols-[1.05fr_0.95fr]">
           <div className="relative min-h-[520px] overflow-hidden rounded-lg">
@@ -43,7 +43,7 @@ export default function WhyChooseUsSection() {
             />
             <div className="absolute bottom-6 left-6 right-6 rounded-lg bg-black/55 p-6 backdrop-blur">
               <p className="text-3xl font-light leading-tight text-white md:text-4xl">
-                Ánh sáng sân khấu là visual. Đám đông là câu chuyện.
+                DST biến ánh sáng sân khấu thành visual. Biến đám đông thành câu chuyện thương hiệu.
               </p>
             </div>
           </div>

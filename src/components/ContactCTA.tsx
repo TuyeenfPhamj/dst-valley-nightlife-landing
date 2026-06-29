@@ -9,10 +9,10 @@ export default function ContactCTA() {
           <div className="p-8 md:p-12">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] opacity-70">Liên hệ</p>
             <h2 className="mt-6 max-w-3xl text-balance text-4xl font-normal leading-tight md:text-6xl">
-              Bắt đầu một concept nightlife có hình ảnh đủ mạnh để được nhớ.
+              Xây dựng concept nightlife đủ khác biệt để được ghi nhớ.
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-8 opacity-80">
-              DST Group tiếp nhận yêu cầu về truyền thông, hình ảnh, website và nội dung cho mô hình nhà hàng, khách sạn, trung tâm sự kiện và nightlife.
+              DST Group đồng hành cùng các mô hình nhà hàng, khách sạn, trung tâm sự kiện và nightlife trong việc xây dựng hình ảnh thương hiệu, nội dung truyền thông, website và chiến dịch quảng bá.
             </p>
             <a
               className="mt-8 inline-flex items-center gap-2 rounded-lg bg-black px-7 py-3 font-medium text-white transition hover:bg-[#202020]"

@@ -20,7 +20,7 @@ export const venue: VenueProfile = {
   headline: "Nhịp đêm bên biển\nmở ra từ ánh sáng\nvà âm nhạc.",
   subheading:
     "Valley Beach Club là quán bar bãi biển tại Bãi Cháy, Hạ Long với không gian Bohemian, sân khấu mở và hệ thống âm thanh ánh sáng hiện đại.",
-  glassNote: "Beach bar. Sân khấu. Sự kiện.",
+  glassNote: "Beach bar. Sân khấu. Đêm nhạc.",
   description:
     "Valley Beach Club được giới thiệu như một tụ điểm giải trí về đêm mới mẻ tại Hạ Long, lấy cảm hứng từ beach bar Châu Âu với không gian thoáng đãng, lãng mạn và giàu năng lượng sự kiện.",
   conceptPoints: [

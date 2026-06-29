@@ -31,6 +31,8 @@ export interface GalleryItem {
   src: string;
   alt: string;
   span?: "wide" | "tall" | "large";
+  fit?: "cover" | "contain";
+  position?: string;
 }
 
 export interface ExperienceItem {
@@ -54,4 +56,7 @@ export interface EventItem {
   description: string;
   src: string;
   alt: string;
+  client?: string;
+  category?: string;
+  cta?: string;
 }

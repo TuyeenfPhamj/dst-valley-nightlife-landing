@@ -14,7 +14,7 @@ export default function Navbar() {
           <img className="h-10 w-auto object-contain md:h-12" src={assets.logoDst} alt="Logo DST Group" />
         </a>
 
-        <nav className="hidden items-center gap-8 text-sm text-stone-200 md:flex" aria-label="Điều hướng chính">
+        <nav className="hidden items-center gap-6 text-sm text-stone-200 lg:flex" aria-label="Điều hướng chính">
           {navigationItems.map((item) => (
             <a className="transition hover:text-stone-400" href={item.href} key={item.href}>
               {item.label}
@@ -27,12 +27,12 @@ export default function Navbar() {
             className="hidden rounded-lg bg-white px-6 py-2 text-sm font-medium text-black transition hover:bg-stone-100 md:inline-flex"
             href="#lien-he"
           >
-            Liên hệ đặt lịch
+            Nhận tư vấn
           </a>
           <button
             type="button"
             aria-label="Mở menu"
-            className="rounded-lg p-2 text-white transition hover:bg-white/10 md:hidden"
+            className="rounded-lg p-2 text-white transition hover:bg-white/10 lg:hidden"
             onClick={() => setIsOpen(true)}
           >
             <Menu size={22} />

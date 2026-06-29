@@ -3,14 +3,18 @@ import SectionHeading from "./SectionHeading";
 
 export default function BookingProcessSection() {
   return (
-    <section className="bg-dst-ink py-20 md:py-28">
+    <section id="quy-trinh" className="bg-dst-ink py-20 md:py-28">
       <div className="section-shell">
         <SectionHeading
-          label="Quy trình"
-          title="Từ concept đến nội dung, mỗi bước đều hướng về một đêm có khả năng lan tỏa."
-          description="Quy trình dưới đây bám theo các dịch vụ được liệt kê trong hồ sơ và báo giá: content, thiết kế, media, quảng cáo và quản trị kênh."
+          label="Cách DST triển khai"
+          title={
+            <>
+              Từ brief venue đến nhịp truyền thông <span className="gradient-text">trước, trong và sau đêm diễn</span>.
+            </>
+          }
+          description="Quy trình giúp đội vận hành biết nội dung nào cần ưu tiên, hình ảnh nào cần sản xuất, kênh nào cần triển khai và đợt tiếp theo nên tối ưu điều gì."
         />
-        <div className="grid gap-4 md:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
           {timelineItems.map((item, index) => {
             const Icon = item.icon;
             return (

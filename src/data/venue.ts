@@ -14,21 +14,22 @@ export const assets = {
 };
 
 export const venue: VenueProfile = {
-  name: "Valley Beach Club",
+  name: "DST Group Nightlife Marketing",
   partnerName: "DST Group",
-  eyebrow: "DST Group x Valley Beach Club",
-  headline: "Nhịp đêm bên biển\nmở ra từ ánh sáng\nvà âm nhạc.",
+  eyebrow: "DST Group | Nightlife Marketing & Media",
+  headline: "Biến venue thành điểm hẹn\nmà khách muốn quay lại.",
   subheading:
-    "Valley Beach Club là quán bar bãi biển tại Bãi Cháy, Hạ Long với không gian Bohemian, sân khấu mở và hệ thống âm thanh ánh sáng hiện đại.",
-  glassNote: "Beach bar. Sân khấu. Đêm nhạc.",
+    "DST Group triển khai hình ảnh, nội dung, social media, quảng cáo và truyền thông sự kiện cho bar, club, beach club, lounge và các mô hình nightlife.",
+  glassNote: "Marketing. Media. Nightlife.",
   description:
-    "Valley Beach Club được giới thiệu như một tụ điểm giải trí về đêm mới mẻ tại Hạ Long, lấy cảm hứng từ beach bar Châu Âu với không gian thoáng đãng, lãng mạn và giàu năng lượng sự kiện.",
+    "Một venue có thể đầu tư mạnh vào không gian, âm thanh và line-up, nhưng vẫn cần hệ thống truyền thông đủ rõ để khách hiểu tối nay có gì, vì sao nên đến và điều gì khiến nơi đó khác biệt.",
   conceptPoints: [
-    "Vị trí ven biển Bãi Cháy, đối diện Quảng Trường Mặt Trời.",
-    "Phong cách Bohemian lấy cảm hứng từ quán bar bãi biển Châu Âu.",
-    "Âm thanh ánh sáng hiện đại cho các chương trình âm nhạc.",
+    "Không gian có đầu tư nhưng hình ảnh chưa đủ hấp dẫn để kéo khách chú ý.",
+    "Event có line-up nhưng truyền thông chưa tạo được cảm giác chờ đợi trước đêm diễn.",
+    "Fanpage đăng đều nhưng thiếu concept, thiếu nhịp nội dung và thiếu điểm chạm bán hàng.",
+    "Poster, ưu đãi, booking và trải nghiệm tại venue chưa được kết nối thành một câu chuyện.",
   ],
-  location: "Đường ven biển Bãi Cháy, đối diện Quảng Trường Mặt Trời, Hạ Long, Quảng Ninh",
+  location: "Dành cho bar, club, beach club, lounge, music venue và đơn vị tổ chức sự kiện nightlife",
   contact: {
     hotline: "0328 247 888",
     email: "info@dstgroup.vn",

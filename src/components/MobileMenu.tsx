@@ -12,7 +12,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   }
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/70 px-6 pt-6 backdrop-blur-sm md:hidden" role="dialog" aria-modal="true">
+    <div className="fixed inset-0 z-50 bg-black/70 px-6 pt-6 backdrop-blur-sm lg:hidden" role="dialog" aria-modal="true">
       <div className="liquid-glass rounded-xl p-4">
         <div className="flex items-center justify-between">
           <span className="text-sm font-medium uppercase tracking-[0.24em] text-stone-300">Menu</span>
@@ -42,7 +42,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           href="#lien-he"
           onClick={onClose}
         >
-          Liên hệ đặt lịch
+          Nhận tư vấn cho venue
         </a>
       </div>
     </div>

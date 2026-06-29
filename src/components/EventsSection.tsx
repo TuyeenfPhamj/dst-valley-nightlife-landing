@@ -13,18 +13,24 @@ const posters = [
 
 export default function EventsSection() {
   return (
-    <section id="su-kien" className="bg-dst-ink py-20 md:py-28">
+    <section id="portfolio" className="bg-dst-ink py-20 md:py-28">
       <div className="section-shell">
         <SectionHeading
-          label="Đêm nhạc"
-          title="Từ poster đến sân khấu, mỗi chi tiết đều được tạo nên để dẫn dắt cảm xúc trước khi đêm nhạc bắt đầu."
-          description="Âm nhạc, ánh sáng và hình ảnh cùng hòa vào không gian biển, tạo nên những đêm diễn giàu năng lượng và những khoảnh khắc khó quên."
+          label="Dự án tiêu biểu"
+          title={
+            <>
+              Dự án nightlife DST đã triển khai: <span className="gradient-text">Valley Beach Club</span>.
+            </>
+          }
+          description="Valley Beach Club được đặt trong khu vực portfolio như một ví dụ dự án thực tế, tập trung vào visual sự kiện, hình ảnh sân khấu, crowd và nội dung hỗ trợ truyền thông chương trình."
         />
-        <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="grid grid-cols-3 gap-3">
             {posters.map((poster, index) => (
               <img
-                className={`h-full min-h-[320px] w-full rounded-lg object-cover ${index === 1 ? "mt-10" : ""}`}
+                className={`h-full min-h-[320px] w-full rounded-lg bg-black object-contain p-2 ${
+                  index === 1 ? "mt-10" : ""
+                }`}
                 src={poster.src}
                 alt={poster.alt}
                 loading="lazy"
@@ -34,16 +40,33 @@ export default function EventsSection() {
           </div>
           <div className="grid gap-4">
             {eventItems.map((event) => (
-              <article className="liquid-glass rounded-lg p-6" key={event.title}>
-                <h3 className="text-2xl font-medium text-white">{event.title}</h3>
-                <p className="mt-4 leading-8 text-stone-300">{event.description}</p>
+              <article className="liquid-glass grid gap-5 rounded-lg p-6 md:grid-cols-[180px_1fr]" key={event.title}>
+                <img
+                  className="h-44 w-full rounded-lg object-cover md:h-full"
+                  src={event.src}
+                  alt={event.alt}
+                  loading="lazy"
+                />
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-dst-amber">{event.client}</p>
+                  <p className="mt-2 text-sm text-stone-400">{event.category}</p>
+                  <h3 className="mt-4 text-2xl font-medium text-white">{event.title}</h3>
+                  <p className="mt-4 leading-8 text-stone-300">{event.description}</p>
+                  <a
+                    className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-dst-amber transition hover:text-white"
+                    href="#portfolio-gallery"
+                  >
+                    {event.cta ?? "Xem dự án"}
+                    <ArrowUpRight size={16} />
+                  </a>
+                </div>
               </article>
             ))}
             <a
               className="inline-flex w-fit items-center gap-2 rounded-lg bg-dst-amber px-6 py-3 font-medium text-black transition hover:bg-[#efaa50]"
               href="#lien-he"
             >
-              Trao đổi kế hoạch truyền thông
+              Nhận tư vấn truyền thông cho venue
               <ArrowUpRight size={18} />
             </a>
           </div>

@@ -9,16 +9,16 @@ export default function ContactCTA() {
           <div className="p-8 md:p-12">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] opacity-70">Liên hệ</p>
             <h2 className="mt-6 max-w-3xl text-balance text-4xl font-normal leading-tight md:text-6xl">
-              Xây dựng concept nightlife đủ khác biệt để được ghi nhớ.
+              Bạn có venue. DST giúp khách hàng có lý do để đến.
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-8 opacity-80">
-              DST Group đồng hành cùng các mô hình nhà hàng, khách sạn, trung tâm sự kiện và nightlife trong việc xây dựng hình ảnh thương hiệu, nội dung truyền thông, website và chiến dịch quảng bá.
+              Chia sẻ mô hình venue, nhóm khách mục tiêu, lịch event hoặc vấn đề truyền thông đang gặp phải. DST sẽ đề xuất các hạng mục cần ưu tiên.
             </p>
             <a
               className="mt-8 inline-flex items-center gap-2 rounded-lg bg-black px-7 py-3 font-medium text-white transition hover:bg-[#202020]"
               href={`mailto:${venue.contact.email}`}
             >
-              Gửi yêu cầu
+              Nhận tư vấn cho venue
               <Send size={18} />
             </a>
           </div>

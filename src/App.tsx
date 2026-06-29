@@ -17,9 +17,9 @@ export default function App() {
         <HeroSection />
         <AboutSection />
         <ExperienceSection />
-        <EventsSection />
         <WhyChooseUsSection />
         <BookingProcessSection />
+        <EventsSection />
         <GallerySection />
         <ContactCTA />
       </main>

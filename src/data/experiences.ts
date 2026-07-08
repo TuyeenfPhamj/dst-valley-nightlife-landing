@@ -9,13 +9,14 @@ import {
   MessageCircle,
   RadioTower,
   Sparkles,
-  Ticket,
 } from "lucide-react";
 import stage from "../assets/valley-stage.jpg";
 import crowd from "../assets/valley-crowd.jpg";
 import lights from "../assets/valley-lights.jpg";
 import summer from "../assets/valley-summer.jpg";
 import combo from "../assets/valley-combo.jpg";
+import posterMinami from "../assets/valley-poster-minami.jpg";
+import posterShenlongz from "../assets/valley-poster-shenlongz.jpg";
 import type { EventItem, ExperienceItem, TimelineItem } from "../types/venue";
 
 export const experienceItems: ExperienceItem[] = [
@@ -28,26 +29,29 @@ export const experienceItems: ExperienceItem[] = [
     alt: "Sân khấu và ánh sáng của một venue nightlife",
     icon: Camera,
     tone: "teal",
+    position: "center top",
   },
   {
     title: "Poster, key visual & line-up",
     tag: "Visual",
     description:
       "Thiết kế poster chương trình, visual nghệ sĩ, ưu đãi và booking theo concept riêng của từng bar, club, lounge hoặc beach club.",
-    src: summer,
-    alt: "Ấn phẩm visual cho chương trình nightlife",
+    src: posterShenlongz,
+    alt: "Poster line-up cho chương trình nightlife",
     icon: FileImage,
     tone: "amber",
+    fit: "contain",
   },
   {
     title: "Nội dung social media",
     tag: "Social media",
     description:
       "Xây nhịp nội dung cho fanpage: giới thiệu line-up, không khí đêm diễn, ưu đãi, recap và các điểm chạm giữ khách quay lại.",
-    src: lights,
-    alt: "Ánh sáng và không khí đêm tại venue nightlife",
+    src: crowd,
+    alt: "Crowd và không khí bùng nổ trong đêm diễn",
     icon: MessageCircle,
     tone: "dark",
+    position: "center 38%",
   },
   {
     title: "Quảng cáo & landing page",
@@ -58,6 +62,7 @@ export const experienceItems: ExperienceItem[] = [
     alt: "Ấn phẩm ưu đãi và booking cho mô hình nightlife",
     icon: Megaphone,
     tone: "teal",
+    fit: "contain",
   },
 ];
 
@@ -71,6 +76,7 @@ export const solutionItems: ExperienceItem[] = [
     alt: "Đám đông tham gia một đêm nhạc tại venue",
     icon: Sparkles,
     tone: "teal",
+    position: "center 38%",
   },
   {
     title: "Kết nối trước, trong và sau đêm diễn",
@@ -81,6 +87,7 @@ export const solutionItems: ExperienceItem[] = [
     alt: "Sân khấu đêm diễn với ánh sáng và màn hình lớn",
     icon: RadioTower,
     tone: "amber",
+    position: "center top",
   },
   {
     title: "Vận hành kênh có nhịp",
@@ -91,6 +98,7 @@ export const solutionItems: ExperienceItem[] = [
     alt: "Không gian ánh sáng của một venue nightlife",
     icon: Globe2,
     tone: "dark",
+    position: "center center",
   },
   {
     title: "Theo dõi và tối ưu đợt tiếp theo",
@@ -101,6 +109,7 @@ export const solutionItems: ExperienceItem[] = [
     alt: "Visual truyền thông cho chiến dịch nightlife",
     icon: BarChart3,
     tone: "teal",
+    fit: "contain",
   },
 ];
 
@@ -139,8 +148,8 @@ export const eventItems: EventItem[] = [
     title: "Tạo nhận diện cho từng đêm diễn",
     description:
       "Các visual chương trình được phát triển để làm rõ nghệ sĩ, tinh thần âm nhạc và lý do khách nên chú ý trước khi sự kiện diễn ra.",
-    src: summer,
-    alt: "Visual chương trình của dự án Valley Beach Club",
+    src: posterMinami,
+    alt: "Poster line-up của dự án Valley Beach Club",
     cta: "Xem dự án",
   },
   {

@@ -42,7 +42,7 @@ export default function EventsSection() {
             {eventItems.map((event) => (
               <article className="liquid-glass grid gap-5 rounded-lg p-6 md:grid-cols-[180px_1fr]" key={event.title}>
                 <img
-                  className="h-44 w-full rounded-lg object-cover md:h-full"
+                  className="h-44 w-full rounded-lg bg-black object-contain p-2 md:h-full"
                   src={event.src}
                   alt={event.alt}
                   loading="lazy"

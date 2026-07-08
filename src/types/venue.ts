@@ -43,6 +43,8 @@ export interface ExperienceItem {
   alt: string;
   icon: LucideIcon;
   tone: "amber" | "teal" | "dark";
+  fit?: "cover" | "contain";
+  position?: string;
 }
 
 export interface TimelineItem {

@@ -39,7 +39,7 @@ export default function AboutSection() {
             </div>
             <div className="relative overflow-hidden rounded-lg">
               <img
-                className="h-64 w-full object-cover object-center transition duration-700 hover:scale-105"
+                className="h-64 w-full object-cover object-[center_65%] transition duration-700 hover:scale-105"
                 src={assets.lightsImage}
                 alt="Ánh sáng và không khí của venue về đêm"
                 loading="lazy"

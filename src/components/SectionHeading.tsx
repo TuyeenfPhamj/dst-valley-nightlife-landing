@@ -21,7 +21,7 @@ export default function SectionHeading({
   contentClassName = "",
 }: SectionHeadingProps) {
   return (
-    <div className={`mb-10 grid gap-6 md:grid-cols-[1fr_1fr] lg:grid-cols-[0.95fr_1.05fr] md:items-end ${className}`}>
+    <div className={`mb-10 grid gap-6 lg:grid-cols-[0.95fr_1.05fr] lg:items-end ${className}`}>
       <div>
         <SectionLabel>{label}</SectionLabel>
         <h2 className={`max-w-3xl text-balance text-3xl font-normal leading-tight text-white md:text-5xl ${titleClassName}`}>

@@ -10,8 +10,8 @@ import type { GalleryItem } from "../types/venue";
 
 export const galleryItems: GalleryItem[] = [
   {
-    title: "Valley Beach Club - sân khấu & ánh sáng LED",
-    caption: "Hệ thống màn hình và ánh sáng được dùng như chất liệu visual chính cho các đêm diễn.",
+    title: "Valley Beach Club - sân khấu & ánh sáng",
+    caption: "Hình ảnh sân khấu, màn hình và ánh sáng được dùng để thể hiện năng lượng của đêm diễn.",
     src: stage,
     alt: "Sân khấu Valley Beach Club với ánh sáng và màn hình lớn",
     span: "large",
@@ -27,30 +27,30 @@ export const galleryItems: GalleryItem[] = [
     position: "center 38%",
   },
   {
-    title: "Valley Beach Club - không gian đêm",
+    title: "Valley Beach Club - không khí đêm",
     caption: "Ánh sáng, trang trí và sắc thái ngoài trời hỗ trợ nhận diện nightlife cho venue.",
     src: lights,
     alt: "Ánh sáng và trang trí tại Valley Beach Club",
     fit: "cover",
-    position: "center center",
   },
   {
     title: "Valley Beach Club - poster Minami",
     caption: "Ấn phẩm line-up được giữ trọn tỉ lệ để người xem đọc được thông tin chính.",
     src: posterMinami,
     alt: "Poster chương trình Minami tại Valley Beach Club",
+    span: "tall",
     fit: "contain",
   },
   {
     title: "Valley Beach Club - DJ Shenlongz",
-    caption: "Key visual nghệ sĩ cho chiến dịch truyền thông sự kiện.",
+    caption: "Visual nghệ sĩ cho chiến dịch truyền thông sự kiện.",
     src: posterShenlongz,
     alt: "Poster DJ Shenlongz tại Valley Beach Club",
     fit: "contain",
   },
   {
-    title: "Valley Beach Club - DJ Phi Long",
-    caption: "Ấn phẩm teaser và line-up phục vụ truyền thông trước chương trình.",
+    title: "Valley Beach Club - Phi Long",
+    caption: "Ấn phẩm biểu diễn phục vụ truyền thông trước chương trình.",
     src: posterPhiLong,
     alt: "Poster Phi Long tại Valley Beach Club",
     fit: "contain",

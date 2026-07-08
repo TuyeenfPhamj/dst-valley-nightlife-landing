@@ -10,13 +10,13 @@ export default function ExperienceSection() {
     >
       <div className="section-shell">
         <SectionHeading
-          label="Hệ Sinh Thái Dịch Vụ"
+          label="Dịch vụ nightlife"
           title={
             <>
-              Giải pháp truyền thông chuyên sâu giúp venue bùng nổ <span className="gradient-text">nhận diện & doanh thu</span>.
+              DST triển khai các hạng mục truyền thông để venue có <span className="gradient-text">hình ảnh, nội dung và kênh bán hàng</span>.
             </>
           }
-          description="Chúng tôi không chỉ quảng bá một đêm diễn đơn lẻ. DST Group kiến tạo vị thế thương hiệu nightlife thông qua chiến lược Media Production, Key Visual, Social Media Hype và hệ thống tối ưu chuyển đổi đặt bàn."
+          description="Không chỉ quảng bá một đêm diễn. DST giúp venue xây lý do để khách muốn trở lại qua hình ảnh, visual, social media, quảng cáo, landing page và truyền thông trước, trong, sau sự kiện."
           className="mb-12 lg:items-start"
           titleClassName="md:text-[2.625rem] lg:max-w-[40rem]"
           contentClassName="lg:pt-8"

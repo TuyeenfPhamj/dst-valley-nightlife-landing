@@ -2,9 +2,9 @@ import { galleryItems } from "../data/gallery";
 import SectionHeading from "./SectionHeading";
 
 const spanClass: Record<string, string> = {
-  large: "sm:col-span-2 sm:row-span-2",
-  wide: "sm:col-span-2",
-  tall: "sm:row-span-2",
+  large: "md:col-span-2 md:row-span-2",
+  wide: "md:col-span-2",
+  tall: "md:row-span-2",
 };
 
 export default function GallerySection() {
@@ -12,15 +12,15 @@ export default function GallerySection() {
     <section id="portfolio-gallery" className="bg-[#0b0c0c] py-20 md:py-28">
       <div className="section-shell">
         <SectionHeading
-          label="Creative Portfolio"
+          label="Portfolio"
           title={
             <>
-              Quy chuẩn hóa âm thanh, ánh sáng và khoảnh khắc thực chiến thành <span className="gradient-text">tài sản thương hiệu</span>.
+              Hình ảnh, ánh sáng và khoảnh khắc thật được DST chuyển thành <span className="gradient-text">tài sản truyền thông</span>.
             </>
           }
-          description="Khám phá kho tài sản truyền thông thực chiến từ dự án Valley Beach Club. Từng hình ảnh sân khấu, kỹ xảo ánh sáng, video sự kiện đến Key Visual đều được DST quy chuẩn hóa để tối đa hóa nhận diện thương hiệu và gia tăng tỷ lệ chuyển đổi."
+          description="Các asset dưới đây thuộc dự án Valley Beach Club, được sắp đặt để thể hiện cách DST dùng sân khấu, crowd, poster và visual ưu đãi trong một hệ thống truyền thông nightlife."
         />
-        <div className="grid auto-rows-[280px] gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-flow-dense">
+        <div className="grid auto-rows-[280px] gap-4 md:grid-cols-4">
           {galleryItems.map((item) => (
             <article
               className={`group relative overflow-hidden rounded-lg bg-black ${item.span ? spanClass[item.span] : ""}`}

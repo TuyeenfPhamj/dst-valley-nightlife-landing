@@ -9,100 +9,96 @@ import {
   MessageCircle,
   RadioTower,
   Sparkles,
+  Ticket,
 } from "lucide-react";
 import stage from "../assets/valley-stage.jpg";
 import crowd from "../assets/valley-crowd.jpg";
 import lights from "../assets/valley-lights.jpg";
-import posterMinami from "../assets/valley-poster-minami.jpg";
-import posterShenlongz from "../assets/valley-poster-shenlongz.jpg";
+import summer from "../assets/valley-summer.jpg";
 import combo from "../assets/valley-combo.jpg";
 import type { EventItem, ExperienceItem, TimelineItem } from "../types/venue";
 
 export const experienceItems: ExperienceItem[] = [
   {
-    title: "Sản xuất media & visual venue",
-    tag: "Media production",
+    title: "Hình ảnh & video venue",
+    tag: "Media",
     description:
-      "Bắt trọn không khí sân khấu, ánh sáng, crowd và khoảnh khắc khách hàng để biến trải nghiệm tại venue thành chất liệu truyền thông có sức lan tỏa.",
+      "Khai thác sân khấu, crowd, ánh sáng, đồ uống, không gian và khoảnh khắc khách hàng để tạo chất liệu truyền thông có cảm xúc.",
     src: stage,
-    alt: "Sân khấu và ánh sáng của venue nightlife",
+    alt: "Sân khấu và ánh sáng của một venue nightlife",
     icon: Camera,
     tone: "teal",
-    position: "center top",
   },
   {
-    title: "Thiết kế key visual & poster line-up",
-    tag: "Brand identity",
+    title: "Poster, key visual & line-up",
+    tag: "Visual",
     description:
-      "Quy chuẩn hệ thống ấn phẩm từ poster nghệ sĩ, key visual sự kiện đến combo ưu đãi để mỗi chương trình có nhận diện riêng.",
-    src: posterShenlongz,
-    alt: "Poster line-up cho chương trình nightlife",
+      "Thiết kế poster chương trình, visual nghệ sĩ, ưu đãi và booking theo concept riêng của từng bar, club, lounge hoặc beach club.",
+    src: summer,
+    alt: "Ấn phẩm visual cho chương trình nightlife",
     icon: FileImage,
     tone: "amber",
-    fit: "contain",
   },
   {
-    title: "Chiến lược social media & hype marketing",
-    tag: "Social growth",
+    title: "Nội dung social media",
+    tag: "Social media",
     description:
-      "Xây nhịp nội dung trên fanpage và kênh social: teaser, line-up, recap, ảnh khách và ưu đãi để giữ khách theo dõi trước lẫn sau đêm diễn.",
-    src: crowd,
-    alt: "Crowd và không khí bùng nổ trong đêm diễn",
+      "Xây nhịp nội dung cho fanpage: giới thiệu line-up, không khí đêm diễn, ưu đãi, recap và các điểm chạm giữ khách quay lại.",
+    src: lights,
+    alt: "Ánh sáng và không khí đêm tại venue nightlife",
     icon: MessageCircle,
     tone: "dark",
-    position: "center 38%",
   },
   {
-    title: "Quảng cáo chuyển đổi & booking",
-    tag: "Performance",
+    title: "Quảng cáo & landing page",
+    tag: "Chuyển đổi",
     description:
-      "Triển khai quảng cáo, landing page, ưu đãi và nội dung hỗ trợ đặt bàn hoặc bán vé để kết nối truyền thông với hành động cụ thể.",
+      "Triển khai quảng cáo, landing page sự kiện, thông tin line-up, ưu đãi và nội dung hỗ trợ đặt bàn hoặc bán vé khi dự án có nhu cầu.",
     src: combo,
-    alt: "Ấn phẩm combo và booking cho venue nightlife",
+    alt: "Ấn phẩm ưu đãi và booking cho mô hình nightlife",
     icon: Megaphone,
     tone: "teal",
-    fit: "contain",
   },
 ];
 
 export const solutionItems: ExperienceItem[] = [
   {
-    title: "Định vị điểm khác biệt",
+    title: "Tạo lý do để khách muốn đến",
     tag: "Định vị",
     description:
-      "DST giúp venue trả lời rõ: tối nay có gì, khác biệt ở đâu và vì sao khách nên chọn nơi này thay vì một điểm hẹn khác.",
-    src: lights,
-    alt: "Ánh sáng và không khí venue nightlife",
+      "DST giúp venue diễn đạt rõ tối nay có gì, khác biệt ở đâu và vì sao trải nghiệm đó đáng để khách dành một buổi tối.",
+    src: crowd,
+    alt: "Đám đông tham gia một đêm nhạc tại venue",
     icon: Sparkles,
     tone: "teal",
   },
   {
-    title: "Truyền thông 3 giai đoạn",
+    title: "Kết nối trước, trong và sau đêm diễn",
     tag: "Chiến dịch",
     description:
-      "Từ teaser trước sự kiện, nội dung trong đêm diễn đến recap sau chương trình, mọi điểm chạm đều cùng đẩy một câu chuyện.",
+      "Thông điệp không dừng ở poster. DST kết nối teaser, line-up, recap, ảnh khách và ưu đãi thành một nhịp truyền thông liên tục.",
     src: stage,
-    alt: "Sân khấu âm nhạc sự kiện",
+    alt: "Sân khấu đêm diễn với ánh sáng và màn hình lớn",
     icon: RadioTower,
     tone: "amber",
   },
   {
-    title: "Phân phối đa kênh",
-    tag: "Hệ sinh thái kênh",
+    title: "Vận hành kênh có nhịp",
+    tag: "Kênh triển khai",
     description:
-      "Fanpage, social media, quảng cáo, website và điểm chạm tại venue được sắp xếp để hỗ trợ cùng một mục tiêu truyền thông.",
-    src: crowd,
-    alt: "Khách tham gia sự kiện nightlife",
+      "Fanpage, quảng cáo, website và nội dung bán hàng được sắp xếp để hỗ trợ cùng một mục tiêu thay vì chạy rời rạc.",
+    src: lights,
+    alt: "Không gian ánh sáng của một venue nightlife",
     icon: Globe2,
     tone: "dark",
   },
   {
-    title: "Đo lường và tối ưu",
+    title: "Theo dõi và tối ưu đợt tiếp theo",
     tag: "Vận hành",
     description:
-      "Sau mỗi chiến dịch, DST rà lại phản hồi, hiệu quả nội dung và đề xuất nhịp triển khai phù hợp cho đợt tiếp theo.",
-    src: posterMinami,
-    alt: "Visual sự kiện dùng cho đo lường chiến dịch",
+      "Sau mỗi đợt triển khai, DST ghi nhận phản hồi, rà lại nội dung và đề xuất ưu tiên cho chương trình kế tiếp.",
+    src: summer,
+    alt: "Visual truyền thông cho chiến dịch nightlife",
     icon: BarChart3,
     tone: "teal",
   },
@@ -110,28 +106,28 @@ export const solutionItems: ExperienceItem[] = [
 
 export const timelineItems: TimelineItem[] = [
   {
-    title: "Nghiên cứu brief venue",
-    description: "Làm rõ mô hình kinh doanh, nhóm khách mục tiêu, lịch event, vấn đề truyền thông và mục tiêu cần ưu tiên.",
+    title: "Tiếp nhận brief venue",
+    description: "Làm rõ mô hình, nhóm khách mục tiêu, lịch event, điểm mạnh hiện có và vấn đề truyền thông đang gặp phải.",
     icon: AudioLines,
   },
   {
-    title: "Xây concept truyền thông",
-    description: "Định hướng thông điệp, phong cách hình ảnh, nhịp nội dung và các điểm chạm cần triển khai theo từng giai đoạn.",
+    title: "Định hướng concept",
+    description: "Xác định thông điệp, tinh thần hình ảnh, nhịp nội dung và các điểm chạm cần ưu tiên cho từng giai đoạn.",
     icon: Sparkles,
   },
   {
-    title: "Sản xuất media & visual",
-    description: "Triển khai hình ảnh, video, key visual, poster line-up, nội dung social và ấn phẩm hỗ trợ booking.",
+    title: "Sản xuất nội dung",
+    description: "Triển khai hình ảnh, video, poster, key visual, caption, bài đăng và nội dung hỗ trợ booking hoặc bán vé.",
     icon: Camera,
   },
   {
-    title: "Phân phối đa kênh",
-    description: "Vận hành social media, quảng cáo, landing page và nội dung dẫn khách đến hành động đặt bàn hoặc mua vé.",
+    title: "Triển khai kênh",
+    description: "Vận hành social media, quảng cáo, landing page và các nội dung dẫn khách đến hành động cụ thể.",
     icon: Megaphone,
   },
   {
-    title: "Báo cáo & tối ưu",
-    description: "Theo dõi phản hồi, rà hiệu quả nội dung và đề xuất ưu tiên cho các chương trình kế tiếp.",
+    title: "Tối ưu sau chiến dịch",
+    description: "Theo dõi phản hồi, rà hiệu quả nội dung và đề xuất nhịp truyền thông cho chương trình tiếp theo.",
     icon: CalendarDays,
   },
 ];
@@ -139,32 +135,32 @@ export const timelineItems: TimelineItem[] = [
 export const eventItems: EventItem[] = [
   {
     client: "Valley Beach Club",
-    category: "Key visual & poster line-up",
-    title: "Tạo nhận diện riêng cho từng đêm diễn",
+    category: "Poster line-up & visual sự kiện",
+    title: "Tạo nhận diện cho từng đêm diễn",
     description:
-      "Thiết kế hệ thống poster và visual nghệ sĩ để truyền tải tinh thần âm nhạc, tạo sự chú ý trước giờ sự kiện.",
-    src: posterMinami,
-    alt: "Poster line-up của Valley Beach Club",
-    cta: "Khám phá dự án",
+      "Các visual chương trình được phát triển để làm rõ nghệ sĩ, tinh thần âm nhạc và lý do khách nên chú ý trước khi sự kiện diễn ra.",
+    src: summer,
+    alt: "Visual chương trình của dự án Valley Beach Club",
+    cta: "Xem dự án",
   },
   {
     client: "Valley Beach Club",
-    category: "Media production & hype marketing",
-    title: "Biến năng lượng sân khấu thành chất liệu truyền thông",
+    category: "Hình ảnh sân khấu & crowd",
+    title: "Biến không khí thật thành tài sản truyền thông",
     description:
-      "Khai thác ánh sáng, màn hình, sân khấu và crowd để xây kho hình ảnh phục vụ recap, social content và truyền thông sau sự kiện.",
-    src: stage,
-    alt: "Sân khấu và ánh sáng tại Valley Beach Club",
-    cta: "Khám phá dự án",
+      "Hình ảnh sân khấu, ánh sáng và khách tham gia được dùng như chất liệu kể chuyện cho những đêm diễn giàu năng lượng.",
+    src: crowd,
+    alt: "Khách tham gia sự kiện tại Valley Beach Club",
+    cta: "Xem dự án",
   },
   {
     client: "Valley Beach Club",
-    category: "Ưu đãi, booking & chuyển đổi",
-    title: "Kết nối visual với quyết định đặt bàn",
+    category: "Ưu đãi, booking & chương trình",
+    title: "Kết nối nội dung với hành động đặt chỗ",
     description:
-      "Các ấn phẩm combo, ưu đãi và thông tin chương trình được trình bày rõ ràng để khách dễ nắm lựa chọn trước khi liên hệ.",
+      "Ấn phẩm combo, ưu đãi và thông tin chương trình giúp khách nắm nhanh lựa chọn trước khi liên hệ hoặc đặt bàn.",
     src: combo,
     alt: "Ấn phẩm combo và booking của Valley Beach Club",
-    cta: "Khám phá dự án",
+    cta: "Xem dự án",
   },
 ];

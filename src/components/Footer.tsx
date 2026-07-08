@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <img className="h-12 w-auto object-contain" src={assets.logoDstMarketing} alt="Logo DST Marketing Media" />
           <p className="mt-4 max-w-lg text-sm leading-6 text-stone-400">
-            {venue.partnerName} - Đối tác truyền thông chiến lược hàng đầu, kiến tạo nhận diện thương hiệu, bùng nổ Media và tối ưu hóa doanh thu cho các tổ hợp giải trí Nightlife tại Việt Nam.
+            {venue.partnerName} đồng hành cùng các mô hình nightlife trong hình ảnh, nội dung, media, social media và truyền thông sự kiện.
           </p>
         </div>
         <nav className="flex flex-wrap gap-5 text-sm text-stone-300" aria-label="Liên kết cuối trang">

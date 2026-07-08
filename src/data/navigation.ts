@@ -1,10 +1,10 @@
 import type { NavigationItem } from "../types/venue";
 
 export const navigationItems: NavigationItem[] = [
-  { label: "Vấn đề", href: "#van-de" },
-  { label: "Dịch vụ", href: "#dich-vu" },
-  { label: "Giải pháp", href: "#giai-phap" },
+  { label: "Thách thức", href: "#van-de" },
+  { label: "Hệ sinh thái", href: "#dich-vu" },
+  { label: "Chiến lược", href: "#giai-phap" },
   { label: "Quy trình", href: "#quy-trinh" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Liên hệ", href: "#lien-he" },
+  { label: "Case Study", href: "#portfolio" },
+  { label: "Hợp tác", href: "#lien-he" },
 ];

@@ -90,7 +90,7 @@ button:focus-visible {
 }
 
 .section-shell {
-  width: min(100% - 2rem, 1180px);
+  width: min(100% - 2.5rem, 1440px);
   margin-inline: auto;
 }
 

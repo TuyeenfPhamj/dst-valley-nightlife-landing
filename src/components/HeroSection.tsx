@@ -35,14 +35,14 @@ export default function HeroSection() {
               className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 font-medium text-black transition hover:bg-stone-100"
               href="#lien-he"
             >
-              Nhận tư vấn cho venue
+              Nhận Đề Xuất Chiến Lược
               <ArrowUpRight size={18} />
             </a>
             <a
               className="liquid-glass inline-flex items-center gap-2 rounded-lg border border-white/20 px-8 py-3 font-medium text-white transition hover:bg-white hover:text-black"
               href="#portfolio"
             >
-              Xem dự án nightlife
+              Khám Phá Dự Án Thực Chiến
               <ArrowDown size={18} />
             </a>
           </FadeIn>

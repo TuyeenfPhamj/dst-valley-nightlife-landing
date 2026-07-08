@@ -20,10 +20,13 @@ export default function ExperienceCard({ item, featured = false }: ExperienceCar
     >
       <div className="aspect-[16/10] overflow-hidden">
         <img
-          className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+          className={`h-full w-full transition duration-700 group-hover:scale-105 ${
+            item.fit === "contain" ? "bg-black/35 object-contain p-2" : "object-cover"
+          }`}
           src={item.src}
           alt={item.alt}
           loading="lazy"
+          style={{ objectPosition: item.position ?? "center" }}
         />
       </div>
       <div className="flex flex-1 flex-col p-6">
